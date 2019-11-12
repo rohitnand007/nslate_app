@@ -1,0 +1,3018 @@
+@charset "UTF-8";
+/* line 1, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.loading_icon {
+  display: block;
+  margin: auto;
+}
+
+/* line 5, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.line_div {
+  width: 0px;
+  height: 25em;
+  border: 1px solid #d1d2d4;
+  margin: auto;
+}
+
+/* line 12, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.styled-select {
+  width: auto;
+  height: 34px;
+  overflow: hidden;
+  display: inline-block;
+  background: url(/assets/down_arrow.png) no-repeat right white;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /*padding: 0px 15px 0px 10px;*/
+}
+/* line 22, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.styled-select .drop_down, .styled-select .drop_down1 {
+  background: transparent;
+  width: 268px;
+  padding: 5px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+/* line 32, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.styled-select .drop_down optgroup, .styled-select .drop_down1 optgroup {
+  font-weight: 500;
+  font-size: 13px;
+  color: #62c6cc;
+}
+/* line 37, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.styled-select .drop_down option, .styled-select .drop_down1 option {
+  color: #636363;
+  font-size: 12px;
+}
+/* line 42, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.styled-select .drop_down:active, .styled-select .drop_down:focus, .styled-select .drop_down:hover {
+  border: 0;
+}
+/* line 45, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.styled-select select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+/* line 51, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.styled-select:active, .styled-select:focus, .styled-select:hover {
+  border: 1px solid #39b18d;
+}
+
+/* line 55, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.refresh_button {
+  float: right;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #d1d2d4;
+  background-color: #EEEEEE;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 3px;
+}
+/* line 64, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.refresh_button a {
+  text-decoration: none;
+  height: 30px;
+  width: 90px;
+  display: block;
+  position: absolute;
+}
+/* line 71, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.refresh_button .image_div {
+  background-color: #FFFFFF;
+  border-left: 1px solid #d1d2d4;
+  float: right;
+  padding-top: 6px;
+  text-align: center;
+  width: 30px;
+  height: 24px;
+}
+
+/* line 81, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.quicktest_menu {
+  display: table;
+  width: 100%;
+}
+/* line 84, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.quicktest_menu .quicktest_menubutton_blank {
+  border-bottom: 1px solid #7AC9AA;
+  display: table-cell;
+  width: 0.5em;
+}
+/* line 89, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.quicktest_menu .quicktest_menubutton_info {
+  text-align: right;
+  border-bottom: 1px solid #7AC9AA;
+  display: table-cell;
+  color: #636363;
+  width: 65%;
+  padding: 0px;
+  vertical-align: middle;
+}
+/* line 98, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.quicktest_menu .quicktest_menubutton_dull:hover {
+  background-color: #7AC9AA;
+  border: 1px solid #7AC9AA;
+  color: white;
+  cursor: default;
+}
+/* line 103, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.quicktest_menu .quicktest_menubutton_dull:hover a {
+  color: white;
+}
+/* line 107, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.quicktest_menu .quicktest_menubutton_dull {
+  color: #636363;
+  border-bottom: 1px solid #7AC9AA;
+  border-top: 1px solid #d1d2d4;
+  border-left: 1px solid #d1d2d4;
+  border-right: 1px solid #d1d2d4;
+  height: 2em;
+  width: auto;
+  background-color: #EEEEEE;
+  margin-right: 2px;
+  display: table-cell;
+  text-align: center;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+/* line 121, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.quicktest_menu .quicktest_menubutton_dull a {
+  display: block;
+  color: #636363;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  line-height: 2em;
+}
+/* line 130, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.quicktest_menu .quicktest_menubutton_active {
+  color: #7AC9AA;
+  border-top: 1px solid #7AC9AA;
+  border-left: 1px solid #7AC9AA;
+  border-right: 1px solid #7AC9AA;
+  height: 2em;
+  width: auto;
+  background-color: white;
+  margin-right: 2px;
+  display: table-cell;
+  text-align: center;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+/* line 143, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.quicktest_menu .quicktest_menubutton_active a {
+  display: block;
+  color: #0090d4;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  line-height: 2em;
+}
+
+/* line 152, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block {
+  /*
+  #chart #bars li .bar:hover:before {
+    color: black;
+    content: attr(data-percentage) '%';
+    position: relative;
+    bottom: 20px;
+
+  }
+  */
+  width: 96%;
+  margin: auto;
+}
+/* line 153, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .drop_down, #quicktest_block .label {
+  color: #636363;
+  font-size: 1.1em;
+}
+/* line 156, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .drop_down option, #quicktest_block .label option {
+  font-size: 1.1em;
+}
+/* line 160, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .drop_down:focus {
+  outline-color: #7fc7e9;
+}
+/* line 163, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .reportsblock_chart_title {
+  display: table;
+  width: 100%;
+  height: 3em;
+  line-height: 3em;
+  padding-left: 2em;
+}
+/* line 170, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .image_insert_div {
+  display: inline-block;
+  height: 40px;
+  width: auto;
+  border: 2px solid #d1d2d4;
+  border-radius: 5px;
+}
+/* line 176, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .image_insert_div input {
+  height: 100%;
+}
+/* line 181, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .reportsblock_chart_rowhead {
+  display: table-row;
+  width: inherit;
+  background-color: #7fc7e9;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+}
+/* line 189, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .reportsblock_chart_cell {
+  display: table-cell;
+  width: 20%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+/* line 194, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .reportsblock_chart_cell .left_aligner {
+  text-align: left;
+  margin-left: 2em;
+}
+/* line 199, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .reportsblock_chart_row {
+  width: inherit;
+  display: table-row;
+  line-height: 2em;
+}
+/* line 204, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart {
+  width: 650px;
+  height: 300px;
+  margin: 30px auto 0;
+  margin-top: 6em;
+  display: block;
+  padding-bottom: 3em;
+}
+/* line 212, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart #numbers {
+  width: 50px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: left;
+}
+/* line 220, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart #numbers li {
+  text-align: right;
+  padding-right: 1em;
+  list-style: none;
+  height: 29px;
+  border-right: 4px solid #4d937b;
+  position: relative;
+  bottom: 16px;
+}
+/* line 229, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart #numbers li:last-child {
+  height: 30px;
+}
+/* line 232, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart #numbers li span {
+  color: black;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+/* line 238, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart #bars {
+  display: inline-block;
+  background: #ffffff;
+  width: 600px;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  /*box-shadow: 0 0 0 1px #444;*/
+  border-bottom: 4px solid #4d937b;
+}
+/* line 248, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart #bars li {
+  display: table-cell;
+  width: 100px;
+  height: 300px;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+/* line 256, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart #bars li .bar {
+  display: block;
+  width: 40px;
+  margin-left: 15px;
+  background: #49E;
+  position: relative;
+  bottom: 0px;
+}
+/* line 266, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart #bars li .bar:hover {
+  background: #5AE;
+  cursor: pointer;
+}
+/* line 279, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block #chart #bars li span {
+  color: black;
+  width: 100%;
+  position: relative;
+  left: 0;
+  text-align: center;
+  display: block;
+}
+/* line 289, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .bar_info {
+  position: relative;
+  bottom: 24px;
+  color: black;
+  box-shadow: 0 0 0 1px #4d937b;
+}
+/* line 297, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .bar_img {
+  position: relative;
+  bottom: 70px;
+  width: 25px;
+  height: 25px;
+}
+/* line 303, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .bublleY {
+  width: 1.6em;
+  line-height: 1.6em;
+  background-color: #4d937b;
+  font-size: 8.0pt;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 1000px;
+  display: inline-block;
+}
+/* line 314, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .squareRight {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  background-color: #4d937b;
+  display: inline-block;
+}
+/* line 322, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .questiongrid_rowhead {
+  display: table-row;
+  width: inherit;
+  background-color: #d1d2d4;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+}
+/* line 331, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .questiongrid_cell {
+  display: table-cell;
+  width: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+  line-height: 3em;
+  border-bottom: 1px solid #999999;
+  border-right: 1px solid #999999;
+}
+/* line 342, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .questiongrid_headcell {
+  display: table-cell;
+  width: 22em;
+  text-align: center;
+  line-height: 3em;
+  border-bottom: 1px solid #999999;
+  border-right: 1px solid #999999;
+}
+/* line 350, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .questiongrid_bottomcell {
+  display: table-cell;
+  width: 5em;
+  text-align: center;
+  line-height: 3em;
+  border-bottom: 1px solid #999999;
+  border-right: 1px solid #999999;
+}
+/* line 358, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .squareWrong {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  background-color: #c30684;
+  display: inline-block;
+}
+/* line 366, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .bublleN {
+  width: 1.6em;
+  line-height: 1.6em;
+  background-color: #c30684;
+  font-size: 8.0pt;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 1000px;
+  display: inline-block;
+}
+/* line 378, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .div_header {
+  background-color: #7fc7e9;
+  color: white;
+  padding: 0.5em;
+  font-size: 14px;
+}
+/* line 384, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .div_work_area {
+  border: 1px solid #d1d2d4;
+  padding: 2em;
+}
+/* line 388, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .div_message_area {
+  border: 1px solid #d1d2d4;
+  padding: 2%;
+  border-top: none;
+}
+/* line 394, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block {
+  border-bottom: 1px solid #7AC9AA;
+  border-left: 1px solid #7AC9AA;
+  border-right: 1px solid #7AC9AA;
+  padding: 2em;
+  color: #636363;
+}
+/* line 400, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .marks_circle_div {
+  width: 3em;
+  height: 3em;
+  border: 1px solid #000000;
+  border-radius: 1.5em;
+  line-height: 3em;
+}
+/* line 407, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .gray_div {
+  width: 20em;
+  height: 3em;
+  background-color: #d1d2d4;
+}
+/* line 411, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .gray_div .green_div {
+  width: 1em;
+  height: 3em;
+  background-color: #4d937b;
+}
+/* line 417, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .question_attribute_button.picker {
+  background-color: #eeeeee;
+  border-color: #d1d2d4;
+  border-width: 1px;
+  border-bottom: 0px;
+}
+/* line 422, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .question_attribute_button.picker a {
+  color: #636363;
+}
+/* line 426, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .question_attribute_button.labeler {
+  border-color: #0090d4;
+  border-width: 2px;
+  border-bottom: 0px;
+  color: #0090d4;
+  margin-bottom: 0px;
+}
+/* line 433, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .question_attribute_button.image_inserter:hover {
+  background-color: white;
+  background-image: url(/assets/image_green.png);
+  background-repeat: no-repeat;
+}
+/* line 437, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .question_attribute_button.image_inserter:hover a {
+  color: #4D917A;
+}
+/* line 441, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .question_attribute_button.image_inserter {
+  background-image: url(/assets/image_white.png);
+  background-repeat: no-repeat;
+  background-color: #4D917A;
+  border: 1px solid #4D917A;
+  border-bottom: 0px;
+  min-width: 7.5em;
+}
+/* line 448, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .question_attribute_button.image_inserter a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+/* line 454, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item {
+  border: 1px solid #eeeeee;
+  width: 100%;
+  margin: auto;
+}
+/* line 458, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_fetcher {
+  width: 100%;
+  height: 3em;
+  line-height: 3em;
+  background-color: #d1d2d4;
+  text-align: right;
+  background-image: url(/assets/gray_arrow_expand.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 467, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_fetcher a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #636363;
+  margin-right: 4px;
+}
+/* line 477, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box_toggler {
+  width: 100%;
+  height: 3em;
+  line-height: 3em;
+  background-color: #d1d2d4;
+  text-align: right;
+}
+/* line 483, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box_toggler .margin_creator {
+  padding-right: 3em;
+}
+/* line 486, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box_toggler a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #636363;
+  margin-right: 4px;
+}
+/* line 496, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box_hide {
+  background-image: url(/assets/gray_arrow_collapse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 501, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box_show {
+  background-image: url(/assets/gray_arrow_expand.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 506, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .extra_toggle_hide {
+  background-image: url(/assets/white_arrow_collapse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 511, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .extra_toggle_show {
+  background-image: url(/assets/white_arrow_expand.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 516, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .testinfo_viewbuttons {
+  height: 2em;
+  width: 10em;
+  text-align: center;
+  line-height: 2em;
+  color: white;
+  margin-top: 0.6em;
+  margin-right: 5em;
+  float: right;
+}
+/* line 525, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .testinfo_viewbuttons a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+/* line 533, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .testinfo_head_block {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+/* line 539, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .testinfo_head_block .summary_message {
+  color: #2fb38e;
+}
+/* line 541, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .testinfo_head_block .summary_message span {
+  margin-left: 2em;
+}
+/* line 545, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .testinfo_head_block .testinfo_head_label {
+  display: table-cell;
+  width: 33%;
+  height: auto;
+  vertical-align: middle;
+  padding: 1em 0 1em 2em;
+}
+/* line 552, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .testinfo_head_block .testinfo_head_summary {
+  display: table-cell;
+  width: 66%;
+  height: auto;
+  vertical-align: middle;
+  padding: 1em 0 1em 2em;
+}
+/* line 558, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .testinfo_head_block .testinfo_head_summary .heading {
+  color: #0090d4;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* line 566, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box {
+  width: 98%;
+  min-height: 6em;
+  margin: auto;
+  display: table;
+}
+/* line 571, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .student_response_box, #quicktest_block .q_body_block .q_item .analysis_box .question_graph_box {
+  width: 100%;
+  display: table;
+}
+/* line 575, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .question_graph_block {
+  position: relative;
+  display: table-cell;
+}
+/* line 579, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .student_report_block {
+  position: relative;
+  height: auto;
+  display: table-cell;
+}
+/* line 584, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .extra_toggle {
+  display: table-cell;
+  width: 3em;
+  background-color: #7fc7e9;
+}
+/* line 589, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .graph_choice_menu {
+  width: 100%;
+}
+/* line 591, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .graph_choice_menu .graph_choice_menubutton {
+  color: white;
+  width: auto;
+  background-color: #d1d2d4;
+  /*#0090d4*/
+  border: 0px;
+  margin-right: 2px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+/* line 603, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .report_box {
+  width: 95%;
+  margin: auto;
+  display: table;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+/* line 612, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reportsview_rowcell {
+  min-width: 7.5em;
+  display: table-cell;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+/* line 618, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reportsview_rowcell .big_table {
+  min-height: 17em;
+  width: 35em;
+  text-align: center;
+}
+/* line 622, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reportsview_rowcell .big_table .bar_div {
+  width: 3em;
+}
+/* line 625, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reportsview_rowcell .big_table .fixed_height_row {
+  height: 4.5em;
+}
+/* line 628, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reportsview_rowcell .big_table .score_text {
+  white-space: nowrap;
+}
+/* line 634, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reportsview_rowcell span {
+  position: absolute;
+  display: inline-block;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  width: 205px;
+}
+/* line 644, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reportgraph_info {
+  height: 5em;
+  padding-top: 0em;
+  color: white;
+  width: 100%;
+  text-align: center;
+  border: 1px solid white;
+  background-color: #9170b2;
+  display: inline-block;
+}
+/* line 653, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reportgraph_info p {
+  margin: 5px;
+}
+/* line 657, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .data_circle_info {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+}
+/* line 663, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reports_labelview {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 669, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reports_labelview #student_scores_label1 {
+  position: absolute;
+  margin-left: -120px;
+  margin-top: 70px;
+  font-weight: bold;
+  color: white;
+}
+/* line 677, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reports_labelview #student_scores_label2 {
+  position: absolute;
+  color: white;
+  margin-left: -65px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+/* line 685, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reports_labelview #student_scores_label3 {
+  position: absolute;
+  margin-left: -65px;
+  margin-top: 70px;
+  color: white;
+  font-weight: bold;
+}
+/* line 692, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .reports_labelview #student_scores_label4 {
+  position: absolute;
+  margin-left: -65px;
+  margin-top: 120px;
+  font-weight: bold;
+  color: white;
+}
+/* line 701, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_body_block .q_item .analysis_box .label_head {
+  font-weight: bold;
+}
+/* line 710, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .quicktest_controlbar {
+  display: table;
+  margin-top: 2em;
+  width: 100%;
+}
+/* line 714, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .quicktest_controlbar .q_savediv {
+  width: 50%;
+  text-align: left;
+  display: table-cell;
+}
+/* line 718, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .quicktest_controlbar .q_savediv .save_button {
+  min-width: 8em;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 0px;
+  left: 0px;
+  background-color: #4d937b;
+  color: white;
+}
+/* line 727, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .quicktest_controlbar .q_canceldiv {
+  left: 0;
+  text-align: left;
+  display: table-cell;
+}
+/* line 731, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .quicktest_controlbar .q_canceldiv .cancel_button {
+  text-align: center !important;
+  text-decoration: none;
+  min-width: 8em;
+  padding: 0.6em 2em 0.6em 2em;
+  border: 0px;
+  position: relative;
+  margin-left: 15%;
+  background-color: #F44336;
+  color: white;
+}
+/* line 741, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .quicktest_controlbar .q_canceldiv .cancel_button :hover {
+  background-color: black;
+}
+/* line 747, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block hr {
+  border-color: #7BBFE8;
+  background-color: #7BBFE8;
+}
+/* line 752, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .input_field {
+  width: 100%;
+  height: 2.5em;
+  padding-left: 0.5em;
+  box-sizing: border-box;
+}
+/* line 755, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_textblock {
+  width: 99.99%;
+  margin-right: 1px;
+  display: table;
+  border: 2px solid #999999;
+}
+/* line 760, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_textblock .q_label {
+  display: table-cell;
+  width: 14%;
+  padding: 0.5em;
+  border-right: 1px solid #999999;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 768, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_textblock .q_textcell {
+  display: table-cell;
+  width: 80%;
+  text-align: left;
+  margin-right: 0em;
+  padding: 0em;
+}
+/* line 774, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_textblock .q_textcell textarea, #quicktest_block .q_textblock .q_textcell input {
+  width: 98%;
+  max-height: 4em;
+  border-width: 0px;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  height: 100%;
+}
+/* line 783, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_textblock .q_textcell textarea:focus, #quicktest_block .q_textblock .q_textcell input:focus {
+  outline-color: #7fc7e9;
+}
+/* line 789, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_optionblock {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+/* line 794, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_optionblock .additional_options a {
+  line-height: 2em;
+  text-decoration: none;
+}
+/* line 801, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_optionrow {
+  display: table-row;
+  /*outline: 1px solid black;*/
+}
+/* line 806, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_optionrow:first-child .option_cell1 {
+  border-top: 1px solid #999999;
+}
+/* line 807, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_optionrow:first-child .option_cell2 {
+  border-top: 1px solid #999999;
+}
+/* line 809, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .option_cell1 {
+  display: table-cell;
+  width: 15%;
+  padding: 0.5em;
+  border-bottom: 1px solid #999999;
+  border-right: 1px solid #999999;
+  border-left: 1px solid #999999;
+}
+/* line 818, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .option_cell2 {
+  display: table-cell;
+  width: 70%;
+  margin-right: 0em;
+  border-bottom: 1px solid #999999;
+  border-right: 1px solid #999999;
+  padding: 0em;
+}
+/* line 825, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .option_cell2 input {
+  width: 98%;
+  max-height: 4em;
+  border-width: 0px;
+  height: 100%;
+  padding-left: 1em;
+}
+/* line 832, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .option_cell2 input:focus {
+  outline-color: #7fc7e9;
+}
+/* line 837, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .option_cell3 {
+  display: table-cell;
+  min-width: 5em;
+  width: 15%;
+}
+/* line 842, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_typemenu {
+  text-align: right;
+}
+/* line 844, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_typemenu .question_attribute_button.delete_question {
+  background-color: #FFF;
+  border-radius: 50%;
+  background-image: url("delete_icon_black.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 850, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_typemenu .question_attribute_button.delete_question:hover {
+  background-color: #FA7575;
+  background-image: url("delete_icon.png");
+}
+/* line 855, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_typemenu .question_attribute_button {
+  display: inline-block;
+  color: white;
+  height: 1.5em;
+  width: auto;
+  background-color: white;
+  /*#0090d4*/
+  border: 0px solid black;
+  padding: 8px;
+  margin: 1px;
+  margin-bottom: 0px;
+}
+/* line 865, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_typemenu .question_attribute_button a {
+  text-decoration: none;
+  color: white;
+}
+/* line 866, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_typemenu .question_attribute_button img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: middle;
+}
+/* line 874, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_typemenu .qtype_menubutton {
+  color: white;
+  height: 2.2em;
+  min-width: 8em;
+  width: auto;
+  background-color: #636363;
+  /*#0090d4*/
+  border: 0px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 885, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_publishdiv {
+  width: 50%;
+  text-align: right;
+  display: table-cell;
+}
+/* line 889, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_publishdiv .publish_button {
+  min-width: 8em;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 0px;
+  position: relative;
+  margin-left: 70%;
+  background-color: #0090d4;
+  color: white;
+}
+/* line 897, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#quicktest_block .q_publishdiv .publish_button :hover {
+  background-color: black;
+}
+
+/* line 905, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+body {
+  background-attachment: fixed;
+}
+
+/* line 909, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.header {
+  height: 100px;
+  border-bottom-color: red;
+  border-bottom: 1px;
+}
+
+/* line 915, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#container {
+  min-height: 100%;
+  min-width: 1024px;
+  position: relative;
+}
+
+/* line 923, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#header_bg {
+  background: none repeat scroll 0 0 #FFFFFF;
+  height: 106px;
+  z-index: 2;
+  border-bottom: 1px solid #0090D4;
+}
+
+/* line 930, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#header {
+  min-width: 1024px;
+  background-color: #ffffff;
+  z-index: 2;
+  top: 0px;
+  position: relative;
+  clear: both;
+  font-family: Roboto;
+  font-size: 0.5em;
+  padding: 0 5% 0 5%;
+  box-shadow: 0px 1px 5px #0090d4;
+}
+
+/* line 943, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#header, #wrapper {
+  height: inherit;
+}
+
+/* line 950, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#header h1 {
+  padding: 15px 5px;
+  float: left;
+  font-size: 40px;
+  font-style: normal;
+  letter-spacing: -1px;
+  line-height: 1.2em;
+}
+
+/* line 959, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#header h1 a:link, #header h1 a:active, #header h1 a:hover, #header h1 a:visited {
+  text-decoration: none;
+}
+
+/* line 963, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#header h1 {
+  color: white;
+}
+
+/* line 966, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#header h1 a:link, #header h1 a:active, #header h1 a:hover, #header h1 a:visited {
+  color: white;
+}
+
+/* line 970, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#head_contentLeft {
+  float: left;
+  display: inline;
+  color: white;
+  height: inherit;
+}
+
+/* line 977, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.logo_icons {
+  float: left;
+  display: inline;
+  width: 129px;
+  height: inherit;
+}
+
+/* line 984, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.logo_icons > * > img {
+  top: 0px;
+  left: 0px;
+  position: relative;
+}
+
+/* line 990, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#nav_icons {
+  float: left;
+  height: inherit;
+}
+
+/* line 995, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.nav_icon_block {
+  float: left;
+  width: 80px;
+  height: inherit;
+  color: #62c6cc;
+  text-align: center;
+  border: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  position: relative;
+}
+
+/* line 1007, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.nav_icon_block a {
+  text-decoration: none;
+  color: #62c6cc;
+}
+
+/* line 1012, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.nav_icon_image {
+  padding-top: 1.2em;
+}
+
+/* line 1017, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.nav_text {
+  display: block;
+  padding: 0.8em;
+  padding-top: 0.5em;
+}
+
+/* line 1023, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.nav_icon {
+  margin-top: 0.8em;
+  height: 2.5em;
+  width: auto;
+}
+
+/* line 1029, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.nav_label {
+  text-align: right;
+}
+
+/* line 1033, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.nav_menuarrow {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0px;
+  /* to align with bottom level */
+  left: 35px;
+  /* to align icon in center */
+}
+
+/* line 1042, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#head_contentRight {
+  float: right;
+  padding-top: 3em;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  position: relative;
+}
+
+/* line 1050, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.search_block {
+  float: right;
+  width: 220px;
+  color: white;
+  background-color: #fff;
+  height: 30px;
+  display: inline;
+  border: 1px solid #39b18d;
+  border-radius: 3px;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+/* line 1065, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.search_button {
+  float: left;
+  border: none;
+  background-color: #fff;
+  background-image: url(/assets/search_arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: inherit;
+  width: 10%;
+  min-width: 2em;
+  outline: 0;
+  padding: 0px;
+}
+
+/* line 1079, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.search_iconview {
+  float: right;
+  border: none;
+  background-color: #fff;
+  background-image: url(/assets/search_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: inherit;
+  width: 10%;
+  outline: 0;
+}
+
+/* line 1091, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.search_input {
+  border: none;
+  float: left;
+  height: 28px;
+  width: 75%;
+  outline: 0;
+  line-height: 12pt;
+  font-style: italic;
+  color: #636363;
+  padding-left: 10px;
+}
+
+/* line 1103, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.search_category {
+  width: 47%;
+  display: inline-block;
+  height: 3.5em;
+  text-align: center;
+}
+
+/* line 1110, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.search_options {
+  display: block;
+  line-height: 30px;
+  height: 30px;
+  min-width: 10em;
+  overflow: hidden;
+  padding-left: 1em;
+  color: #636363;
+}
+/* line 1118, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.search_options label {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1125, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.search_options:hover {
+  background-color: #e5f4fb;
+}
+
+/* line 1130, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#search_content {
+  display: none;
+  width: 220px;
+  color: #0094E7;
+  background-color: #fff;
+  border: 1px solid #39b18d;
+  border-radius: 3px;
+}
+
+/* line 1139, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.profile_block {
+  float: right;
+  width: 175px;
+  color: white;
+  background-color: #7ac9aa;
+  height: 30px;
+  line-height: 2.5em;
+  border: 1px solid #7ac9aa;
+  border-radius: 3px;
+}
+
+/* line 1150, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.profile_block > img {
+  float: left;
+}
+
+/* line 1154, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.profile_block > label {
+  float: left;
+  text-align: center;
+  text-size: 1.2em;
+  max-width: 107px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 1164, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.profile_view {
+  float: right;
+  border: none;
+  background-color: #39b18d;
+  background-image: url(/assets/profile_arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: inherit;
+  width: 2.4em;
+}
+
+/* line 1175, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.profile_content {
+  display: none;
+  width: 175px;
+  color: white;
+  background-color: #7AC9AA;
+  height: auto;
+  position: absolute;
+  right: 5%;
+  top: 66px;
+  z-index: 1002;
+  right: 0px;
+}
+
+/* line 1188, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.profile_edit {
+  display: block;
+  min-width: 10em;
+  overflow: hidden;
+  border: 0px;
+  border-top: 1px solid #FFFFFF;
+  height: 2.5em;
+  line-height: 2.5em;
+  padding-left: 1em;
+}
+/* line 1197, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.profile_edit a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1206, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.profile_edit:hover {
+  background-color: #2fb38e;
+}
+
+/* line 1210, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.inbox_button {
+  border: 1px solid #39b18d;
+  border-radius: 3px;
+  background-color: #39b18d;
+  /*background-image: image-url('/assets/message_icon.png');*/
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32px;
+  width: 36px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* line 1223, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#user_inbox {
+  float: right;
+  display: inline;
+  height: 30px;
+  min-width: 3em;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+/* line 1232, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#head_user_info {
+  color: #636363;
+  float: right;
+  clear: right;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+/* line 1243, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.yield_gap {
+  margin-top: 15px;
+}
+
+/* line 1246, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.page_bg_image {
+  top: 9em;
+  left: 0px;
+  z-index: 1;
+  height: 100%;
+}
+
+/* line 1259, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+ul.top-menu-bar {
+  display: none;
+  width: 120px;
+  color: #0094E7;
+  margin: 0px;
+  top: 106px;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #64b4e4;
+  border-top: 3px solid #0090d4;
+  text-align: left;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+/* line 1272, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+ul.top-menu-bar li {
+  line-height: 2em;
+  padding-left: 0.5em;
+  list-style-type: none;
+  border-bottom: 1px solid #64b4e4;
+}
+/* line 1277, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+ul.top-menu-bar li a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* line 1283, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+ul.top-menu-bar li:hover {
+  line-height: 2em;
+  list-style-type: none;
+  background-color: #0094E7;
+  color: #fff;
+}
+/* line 1288, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+ul.top-menu-bar li:hover a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 1294, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.flash {
+  font-weight: bold;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+/* line 1301, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.body_content {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 75px;
+  clear: both;
+  overflow: hidden;
+  min-height: 500px;
+  min-width: 1025px;
+}
+
+/* line 1313, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#footer {
+  background-color: #FFFFFF;
+  clear: both;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* line 1328, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#footer {
+  margin-top: 10px;
+  border-top: 2px solid #636363;
+  height: 65px;
+}
+
+/* line 1335, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#footer p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding-left: 12%;
+  color: #636363;
+  padding-top: 24px;
+}
+
+/* line 1343, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#footer p a {
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+/* line 1344, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#footer p a:hover {
+  text-decoration: underline;
+}
+
+/* line 1346, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.welcome {
+  padding-top: 5px;
+}
+/* line 1348, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.welcome p {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  color: #636363;
+}
+/* line 1353, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.welcome hr {
+  width: 924px;
+  color: #0090d4;
+  background-color: #0090d4;
+}
+
+/* line 1360, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.content {
+  width: 924px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+/* line 1366, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.content_div {
+  padding: 5px;
+  display: block;
+  clear: both;
+}
+
+/* line 1372, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.icon_box {
+  display: inline-block;
+}
+
+/* line 1376, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.result_box {
+  float: right;
+  display: inline-block;
+  border: 1px #999999 solid;
+  width: 760px;
+  min-height: 140px;
+}
+
+/* line 1384, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.index_table {
+  width: inherit;
+  color: white;
+  table-layout: fixed;
+  border-spacing: 0px;
+}
+/* line 1389, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.index_table thead {
+  background-color: #999999;
+}
+/* line 1391, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.index_table thead th {
+  height: 25px;
+  font-weight: 500;
+  font-size: 14px;
+}
+/* line 1397, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.index_table tbody {
+  text-align: center;
+}
+/* line 1399, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.index_table tbody td {
+  color: #999999;
+  height: 25px;
+}
+/* line 1402, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.index_table tbody td a {
+  color: #999999;
+  text-decoration: none;
+}
+
+/* line 1410, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* .roundedTwo */
+/* line 1428, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.roundedTwo {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  background: #4e917a;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+/* line 1439, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.roundedTwo label {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  cursor: pointer;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+}
+
+/* line 1452, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.roundedTwo label:after {
+  content: '';
+  width: 9px;
+  height: 5px;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  border: 2px solid #fcfff4;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 1470, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.roundedTwo label:hover::after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3;
+}
+
+/* line 1474, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.roundedTwo input[type=checkbox] {
+  visibility: hidden;
+}
+
+/* line 1477, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.roundedTwo input[type=checkbox]:checked + label:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* end .roundedTwo */
+/* Change the web app theme defaults for breadcrumbs and inner tab menu */
+/* line 1485, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#breadcrumbs .current, #breadcrumbs .current:hover, #breadcrumbs a:hover {
+  background-color: #39b18d;
+  text-shadow: none;
+  border-color: #39b18d;
+}
+
+/* line 1489, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#inner-tab-menu ul li:hover {
+  -webkit-box-shadow: 5px 5px 15px #ccc;
+  -moz-box-shadow: 5px 5px 15px #ccc;
+  box-shadow: 5px 5px 15px #ccc;
+  opacity: 0.7;
+}
+/* line 1495, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#inner-tab-menu ul li {
+  background-color: #39b18d;
+  -o-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -kthtml-transition: all 300ms;
+  transition: all 300ms;
+}
+
+/* change color of table header */
+/* line 1507, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+table.listing tr.tr-head {
+  color: white;
+}
+
+/* line 1508, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.dataTables_filter label {
+  color: #636363;
+}
+
+/* line 1510, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+tr.ui-widget-content {
+  vertical-align: top;
+}
+
+/* pushes the containing content to right */
+/* line 1516, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.right {
+  float: right !important;
+}
+
+/* colors red */
+/* line 1521, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.red {
+  color: red;
+}
+
+/* student quiz attempt styles*/
+/* line 1527, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+table.quiz-listing .tr-head th {
+  padding: 10px 0px;
+  text-align: left;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* line 1535, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+table.quiz-listing tr.tr-head {
+  background-color: #FFF;
+  color: #1B5A92;
+}
+
+/* line 1540, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+table.quiz-listing {
+  background: none repeat scroll 0px 0px #D1D2D4;
+}
+
+/* line 1543, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+table.quiz-listing .tr-even {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: normal;
+  font-size: 14px;
+  height: 2.5em;
+}
+
+/* line 1550, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+table.quiz-listing .tr-odd {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: normal;
+  font-size: 14px;
+  height: 2.5em;
+}
+
+/* line 1558, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+table.quiz-listing .col {
+  text-align: center;
+}
+
+/* line 1562, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+table.quiz-listing .left {
+  text-align: left;
+  padding-left: 15px;
+}
+
+/* line 1566, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.details .even td {
+  font: 14px Arial, sans-serif;
+  padding: 10px 10px 10px 10px;
+}
+
+/* line 1571, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.details .odd td {
+  font: 14px Arial, sans-serif;
+  padding: 10px 10px 10px 10px;
+}
+
+/* naren added styles */
+/* line 1577, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.popup_right {
+  margin-top: -60px;
+  position: absolute;
+  left: 660px;
+  vertical-align: middle;
+}
+
+/* line 1587, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.tiptipClass {
+  padding: 12px 20px 12px 20px;
+  background-position: center;
+  background-image: url("/assets/help_icon.png") !important;
+  top: auto !important;
+  margin-top: auto !important;
+  left: auto !important;
+  margin-left: auto !important;
+  background-repeat: no-repeat;
+}
+
+/* line 1596, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.mypopup_label {
+  width: 300px;
+  height: auto;
+  background-color: white;
+  box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  -webkit-box-shadow: 10px 10px 5px #888;
+  border: 1px solid #d1d2d4;
+  border-radius: 2px;
+  color: black;
+  display: inline-block;
+  margin: 0px;
+  padding: 8px;
+  margin-left: -4px;
+}
+
+@font-face {
+  font-family: 'rupee';
+  src: local("Ã¢ËœÂº"), url(data:font/truetype;charset=utf-8;base64,AAEAAAANAIAAAwBQRkZUTVen5G0AAADcAAAAHEdERUYAQAAEAAAA+AAAACBPUy8yRQixzQAAARgAAABgY21hcGmyCE0AAAF4AAABamdhc3D//wADAAAC5AAAAAhnbHlmmuFTtAAAAuwAABAoaGVhZPOmAG0AABMUAAAANmhoZWELSAQOAAATTAAAACRobXR4KSwAAAAAE3AAAABMbG9jYUCgSLQAABO8AAAAKG1heHAAFQP+AAAT5AAAACBuYW1lWObwcQAAFAQAAAIDcG9zdCuGzNQAABYIAAAAuAAAAAEAAAAAxtQumQAAAADIadrpAAAAAMhp2uoAAQAAAA4AAAAYAAAAAAACAAEAAQASAAEABAAAAAIAAAADAigBkAAFAAgFmgUzAAABGwWaBTMAAAPRAGYCEgAAAgAFAAAAAAAAAIAAAKdQAABKAAAAAAAAAABITCAgAEAAICBfBZr+ZgDNBrQBoiAAARFBAAAAAAAFnAAAACAAAQAAAAMAAAADAAAAHAABAAAAAABkAAMAAQAAABwABABIAAAADgAIAAIABgAgAFIAoCAKIC8gX///AAAAIABSAKAgACAvIF/////j/7L/ZeAG3+LfswABAAAAAAAAAAAAAAAAAAAAAAEGAAABAAAAAAAAAAECAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//8AAgABAAAAAAO0BZwD/QAAATMVMzUhFTMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVIxUjNSMVIzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNSE1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1ITUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNSECTBAYATwEBAQEBAQEBAQEBAQEBAQEBAQEBAQQ2AQEBAQEBAQEBAQEBAQEBAT0BAQEBAQEBAQEBAQEBAQEBAQEBAQECJwEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgEBAQECAQECAQIBAgECAgECAwICAgMCAwMEAwQFBAcHBAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBIAcMAwEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEsCAcEBAMDAwICAgICAgECAQIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAT9/AQEBAQEBAQEBAQEBAQEBAQEBAQECAGYBAQEBAQEBAQEBAQEBAgECAQIBAwICAwIEBAYFCjwBAQEBAQEBAQEBAQEBAQEBAQEBAQECAH0BZwEBAQIBAgIBAgECAQIBAgIBAgECAQIBAQEDAgECAQIBAgECAwICAwQEAQEBAgECAQICAQIBAgECAgECAQICAQEBAgQEBAMDAgIDAQICAQICAQEBAgEBAgEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBBAECAQEBAgEBAgEBAQECAQECAQEBAgEBAQIBAQIBAQEBAQIBAgEBAgEBAQIBAQECAQEBAgEBAQIBAQEBAQIBAQIBAQECAQEBAgEBAgEBAQEBAgEBAgEBAgEBAQEBAgEBAgEBAQECAQECAQEBAgEBAQECAQECAQECAQEBAQIBAQEBAgEBAQEBAQECAQEBAQIBAQECAQEBAgEBAQIBAQECAQECAQEBAgECAQEBAgEBAQIBAQIBAQEBAgEBAgEBAgEBAQECAQECAQEBAQIBAQECAQECAQEBAQIBAQIBAQEBAQIBAQECAQEBAgEBAgEBAQEBAQIBAQECAQEBAQIBAQECAQEBAQEBAgIeAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQECAQECAQICAgIDAwIHBQMCAQICAQIBAgECAQICAQIBAgEBAQEDAgIBAgEBAgEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgECAQIBAgECAQIBAgECAQICAQEBAQAAAAAAQAAAAADtAWcA/0AAAEzFTM1IRUzFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUjFSMVIxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFTMVMxUzFSMVIzUjFSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUhNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNSE1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUjNSM1IzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUzNTM1MzUhAkwQGAE8BAQEBAQEBAQEBAQEBAQEBAQEBAQEENgEBAQEBAQEBAQEBAQEBAQE9AQEBAQEBAQEBAQEBAQEBAQEBAQEBAicBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQIBAQEBAgEBAgECAQIBAgIBAgMCAgIDAgMDBAMEBQQHBwQBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBASAHDAMBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBLAgHBAQDAwMCAgICAgIBAgECAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE/fwEBAQEBAQEBAQEBAQEBAQEBAQEBAgBmAQEBAQEBAQEBAQEBAQIBAgECAQMCAgMCBAQGBQo8AQEBAQEBAQEBAQEBAQEBAQEBAQEBAgB9AWcBAQECAQICAQIBAgECAQICAQIBAgECAQEBAwIBAgECAQIBAgMCAgMEBAEBAQIBAgECAgECAQIBAgIBAgECAgEBAQIEBAQDAwICAwECAgECAgEBAQIBAQIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQQBAgEBAQIBAQIBAQEBAgEBAgEBAQIBAQECAQECAQEBAQECAQIBAQIBAQECAQEBAgEBAQIBAQECAQEBAQECAQECAQEBAgEBAQIBAQIBAQEBAQIBAQIBAQIBAQEBAQIBAQIBAQEBAgEBAgEBAQIBAQEBAgEBAgEBAgEBAQECAQEBAQIBAQEBAQEBAgEBAQECAQEBAgEBAQIBAQECAQEBAgEBAgEBAQIBAgEBAQIBAQECAQECAQEBAQIBAQIBAQIBAQEBAgEBAgEBAQECAQEBAgEBAgEBAQECAQECAQEBAQECAQEBAgEBAQIBAQIBAQEBAQECAQEBAgEBAQECAQEBAgEBAQEBAQICHgEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgEBAgECAgICAwMCBwUDAgECAgECAQIBAgECAgECAQIBAQEBAwICAQIBAQIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQIBAgECAQIBAgECAQIBAgECAgEBAQEAAAAAAEAAAABAACTKPMBXw889QALCAAAAAAAyGna6gAAAADIadrqAAAAAAO0BZwAAAAIAAIAAAAAAAAAAQAABrT+XgDeBZwAAAAAA7QAAQAAAAAAAAAAAAAAAAAAABMD9gAAAAAAAAKqAAAB/AAAA/YAAAH8AAACzgAABZwAAALOAAAFnAAAAd4AAAFnAAAA7wAAAO8AAACzAAABHwAAAE8AAAEfAAABZwAAAAAECgQKBAoECggUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAABAAAAEwP+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgB+AAEAAAAAABMABQAAAAMAAQQJAAAAaAAFAAMAAQQJAAEACgBtAAMAAQQJAAIADgB3AAMAAQQJAAMADgCFAAMAAQQJAAQAGgCTAAMAAQQJAAUAVgCtAAMAAQQJAAYACgEDAAMAAQQJABMACgENAAMAAQQJAMgAbgEXUnVwZWUAVAB5AHAAZQBmAGEAYwBlACAAqQAgACgAeQBvAHUAcgAgAGMAbwBtAHAAYQBuAHkAKQAuACAAMgAwADEAMAAuACAAQQBsAGwAIABSAGkAZwBoAHQAcwAgAFIAZQBzAGUAcgB2AGUAZABSAHUAcABlAGUAUgBlAGcAdQBsAGEAcgB3AGUAYgBmAG8AbgB0AFIAdQBwAGUAZQAgAFIAZQBnAHUAbABhAHIAVgBlAHIAcwBpAG8AbgAgADEALgAwADAAIABKAHUAbAB5ACAAMQA1ACwAIAAyADAAMQAwACwAIABpAG4AaQB0AGkAYQBsACAAcgBlAGwAZQBhAHMAZQBSAHUAcABlAGUAUgB1AHAAZQBlAFQAaABpAHMAIABmAG8AbgB0ACAAdwBhAHMAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAHQAaABlACAARgBvAG4AdAAgAFMAcQB1AGkAcgByAGUAbAAgAEcAZQBuAGUAcgBhAHQAbwByAC4AAAIAAAAAAAD/JwCWAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwAAAAEAAgADADUBAgEDAQQBBQEGAQcBCAEJAQoBCwEMAQ0BDgEPB3VuaTAwQTAHdW5pMjAwMAd1bmkyMDAxB3VuaTIwMDIHdW5pMjAwMwd1bmkyMDA0B3VuaTIwMDUHdW5pMjAwNgd1bmkyMDA3B3VuaTIwMDgHdW5pMjAwOQd1bmkyMDBBB3VuaTIwMkYHdW5pMjA1Rg==) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1618, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+.question_style {
+  font-size: 16px;
+  font-family: Arial;
+  word-break: break-word;
+}
+
+/* line 1623, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+a:link.template {
+  color: #00f;
+  font-size: 14px;
+}
+
+/* line 1627, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#loading_overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+  background-color: #000;
+  opacity: 0.5;
+}
+/* line 1636, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/new.css.scss */
+#loading_overlay img {
+  margin-top: 17%;
+  margin-left: 40%;
+  width: 300px;
+}
+/* ------------------------------------------
+CSS3 GITHUB BUTTONS (Nicolas Gallagher)
+Licensed under Unlicense 
+http://github.com/necolas/css3-github-buttons
+------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------- BUTTON */
+/* line 11, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button, .body_content a:link.button, .body_content a.button:visited {
+  position: relative;
+  overflow: visible;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 1px solid #39b18d;
+  margin: 0px;
+  text-decoration: none;
+  text-align: center;
+  font: normal 11px 'WeblySleek UI',Arial, Sans-serif;
+  color: #39b18d;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+  -o-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -kthtml-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  -o-background-clip: padding-box;
+  /*background-clip: padding-box;*/
+  /* commented out due to Opera 11.10 bug */
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  /* IE hacks */
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 52, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button:hover,
+.button:focus,
+.button:active,
+.button.active,
+.body_content a.button:hover {
+  background-color: #39b18d;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* overrides extra padding on button elements in Firefox */
+/* line 59, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* ............................................................................................................. Icons */
+/* line 66, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.icon:before {
+  content: "";
+  position: relative;
+  top: 1px;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin: 0 0.75em 0 -0.25em;
+  background: url(/images/gh-icons.png) 0 99px no-repeat;
+}
+
+/* line 77, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.arrowup.icon:before {
+  background-position: 0 0;
+}
+
+/* line 80, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.arrowup.icon:hover:before,
+.button.arrowup.icon:focus:before,
+.button.arrowup.icon:active:before {
+  background-position: -12px 0;
+}
+
+/* line 82, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.arrowdown.icon:before {
+  background-position: 0 -12px;
+}
+
+/* line 85, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.arrowdown.icon:hover:before,
+.button.arrowdown.icon:focus:before,
+.button.arrowdown.icon:active:before {
+  background-position: -12px -12px;
+}
+
+/* line 87, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.arrowleft.icon:before {
+  background-position: 0 -24px;
+}
+
+/* line 90, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.arrowleft.icon:hover:before,
+.button.arrowleft.icon:focus:before,
+.button.arrowleft.icon:active:before {
+  background-position: -12px -24px;
+}
+
+/* line 92, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.arrowright.icon:before {
+  float: right;
+  margin: 0 -0.25em 0 0.5em;
+  background-position: 0 -36px;
+}
+
+/* line 95, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.arrowright.icon:hover:before,
+.button.arrowright.icon:focus:before,
+.button.arrowright.icon:active:before {
+  background-position: -12px -36px;
+}
+
+/* line 97, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.approve.icon:before {
+  background-position: 0 -48px;
+}
+
+/* line 100, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.approve.icon:hover:before,
+.button.approve.icon:focus:before,
+.button.approve.icon:active:before {
+  background-position: -12px -48px;
+}
+
+/* line 102, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.add.icon:before {
+  background-position: 0 -288px;
+}
+
+/* line 105, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.add.icon:hover:before,
+.button.add.icon:focus:before,
+.button.add.icon:active:before {
+  background-position: -12px -288px;
+}
+
+/* line 107, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.remove.icon:before {
+  background-position: 0 -60px;
+}
+
+/* line 110, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.remove.icon:hover:before,
+.button.remove.icon:focus:before,
+.button.remove.icon:active:before {
+  background-position: -12px -60px;
+}
+
+/* line 112, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.log.icon:before {
+  background-position: 0 -72px;
+}
+
+/* line 115, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.log.icon:hover:before,
+.button.log.icon:focus:before,
+.button.log.icon:active:before {
+  background-position: -12px -72px;
+}
+
+/* line 117, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.calendar.icon:before {
+  background-position: 0 -84px;
+}
+
+/* line 120, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.calendar.icon:hover:before,
+.button.calendar.icon:focus:before,
+.button.calendar.icon:active:before {
+  background-position: -12px -84px;
+}
+
+/* line 122, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.chat.icon:before {
+  background-position: 0 -96px;
+}
+
+/* line 125, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.chat.icon:hover:before,
+.button.chat.icon:focus:before,
+.button.chat.icon:active:before {
+  background-position: -12px -96px;
+}
+
+/* line 127, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.clock.icon:before {
+  background-position: 0 -108px;
+}
+
+/* line 130, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.clock.icon:hover:before,
+.button.clock.icon:focus:before,
+.button.clock.icon:active:before {
+  background-position: -12px -108px;
+}
+
+/* line 132, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.settings.icon:before {
+  background-position: 0 -120px;
+}
+
+/* line 135, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.settings.icon:hover:before,
+.button.settings.icon:focus:before,
+.button.settings.icon:active:before {
+  background-position: -12px -120px;
+}
+
+/* line 137, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.comment.icon:before {
+  background-position: 0 -132px;
+}
+
+/* line 140, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.comment.icon:hover:before,
+.button.comment.icon:focus:before,
+.button.comment.icon:active:before {
+  background-position: -12px -132px;
+}
+
+/* line 142, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.fork.icon:before {
+  background-position: 0 -144px;
+}
+
+/* line 145, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.fork.icon:hover:before,
+.button.fork.icon:focus:before,
+.button.fork.icon:active:before {
+  background-position: -12px -144px;
+}
+
+/* line 147, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.like.icon:before {
+  background-position: 0 -156px;
+}
+
+/* line 150, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.like.icon:hover:before,
+.button.like.icon:focus:before,
+.button.like.icon:active:before {
+  background-position: -12px -156px;
+}
+
+/* line 152, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.favorite.icon:before {
+  background-position: 0 -348px;
+}
+
+/* line 155, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.favorite.icon:hover:before,
+.button.favorite.icon:focus:before,
+.button.favorite.icon:active:before {
+  background-position: -12px -348px;
+}
+
+/* line 157, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.home.icon:before {
+  background-position: 0 -168px;
+}
+
+/* line 160, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.home.icon:hover:before,
+.button.home.icon:focus:before,
+.button.home.icon:active:before {
+  background-position: -12px -168px;
+}
+
+/* line 162, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.key.icon:before {
+  background-position: 0 -180px;
+}
+
+/* line 165, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.key.icon:hover:before,
+.button.key.icon:focus:before,
+.button.key.icon:active:before {
+  background-position: -12px -180px;
+}
+
+/* line 167, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.lock.icon:before {
+  background-position: 0 -192px;
+}
+
+/* line 170, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.lock.icon:hover:before,
+.button.lock.icon:focus:before,
+.button.lock.icon:active:before {
+  background-position: -12px -192px;
+}
+
+/* line 172, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.unlock.icon:before {
+  background-position: 0 -204px;
+}
+
+/* line 175, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.unlock.icon:hover:before,
+.button.unlock.icon:focus:before,
+.button.unlock.icon:active:before {
+  background-position: -12px -204px;
+}
+
+/* line 177, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.loop.icon:before {
+  background-position: 0 -216px;
+}
+
+/* line 180, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.loop.icon:hover:before,
+.button.loop.icon:focus:before,
+.button.loop.icon:active:before {
+  background-position: -12px -216px;
+}
+
+/* line 182, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.search.icon:before {
+  background-position: 0 -228px;
+}
+
+/* line 185, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.search.icon:hover:before,
+.button.search.icon:focus:before,
+.button.search.icon:active:before {
+  background-position: -12px -228px;
+}
+
+/* line 187, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.mail.icon:before {
+  background-position: 0 -240px;
+}
+
+/* line 190, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.mail.icon:hover:before,
+.button.mail.icon:focus:before,
+.button.mail.icon:active:before {
+  background-position: -12px -240px;
+}
+
+/* line 192, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.move.icon:before {
+  background-position: 0 -252px;
+}
+
+/* line 195, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.move.icon:hover:before,
+.button.move.icon:focus:before,
+.button.move.icon:active:before {
+  background-position: -12px -252px;
+}
+
+/* line 197, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.edit.icon:before {
+  background-position: 0 -264px;
+}
+
+/* line 200, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.edit.icon:hover:before,
+.button.edit.icon:focus:before,
+.button.edit.icon:active:before {
+  background-position: -12px -264px;
+}
+
+/* line 202, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.pin.icon:before {
+  background-position: 0 -276px;
+}
+
+/* line 205, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.pin.icon:hover:before,
+.button.pin.icon:focus:before,
+.button.pin.icon:active:before {
+  background-position: -12px -276px;
+}
+
+/* line 207, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.reload.icon:before {
+  background-position: 0 -300px;
+}
+
+/* line 210, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.reload.icon:hover:before,
+.button.reload.icon:focus:before,
+.button.reload.icon:active:before {
+  background-position: -12px -300px;
+}
+
+/* line 212, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.rss.icon:before {
+  background-position: 0 -312px;
+}
+
+/* line 215, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.rss.icon:hover:before,
+.button.rss.icon:focus:before,
+.button.rss.icon:active:before {
+  background-position: -12px -312px;
+}
+
+/* line 217, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.tag.icon:before {
+  background-position: 0 -324px;
+}
+
+/* line 220, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.tag.icon:hover:before,
+.button.tag.icon:focus:before,
+.button.tag.icon:active:before {
+  background-position: -12px -324px;
+}
+
+/* line 222, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.trash.icon:before {
+  background-position: 0 -336px;
+}
+
+/* line 225, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.trash.icon:hover:before,
+.button.trash.icon:focus:before,
+.button.trash.icon:active:before {
+  background-position: -12px -336px;
+}
+
+/* line 227, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.user.icon:before {
+  background-position: 0 -360px;
+}
+
+/* line 230, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.user.icon:hover:before,
+.button.user.icon:focus:before,
+.button.user.icon:active:before {
+  background-position: -12px -360px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- BUTTON EXTENSIONS */
+/* ............................................................................................................. Primary */
+/* ............................................................................................................. Danger */
+/* line 243, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.danger {
+  color: #b53f3a !important;
+  background-color: #fff !important;
+  border-color: #b53f3a !important;
+}
+
+/* line 251, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.danger:hover,
+.button.danger:focus,
+.button.danger:active {
+  border-color: #b53f3a !important;
+  border-bottom-color: #a0302a !important;
+  color: #fff !important;
+  background-color: #dc5f59 !important;
+}
+
+/* line 263, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.danger:active,
+.button.danger.active {
+  border-color: #a0302a !important;
+  border-bottom-color: #bf4843 !important;
+  background-color: #b33630 !important;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b33630), to(#dc5f59));
+  background-image: -moz-linear-gradient(#b33630, #dc5f59);
+  background-image: -o-linear-gradient(#b33630, #dc5f59);
+  background-image: linear-gradient(#b33630, #dc5f59);
+}
+
+/* ............................................................................................................. Pill */
+/* line 275, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.pill {
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+}
+
+/* ............................................................................................................. Disable */
+/* line 283, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.disable, .button.disable:hover {
+  opacity: 0.5;
+  background-color: #CCCCCC;
+  color: #666666;
+  border: none;
+}
+
+/* ............................................................................................................. Big */
+/* line 292, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.big {
+  font-size: 12px;
+}
+
+/* line 296, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button.big.icon:before {
+  top: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- BUTTON GROUPS */
+/* ............................................................................................................. Standard */
+/* line 303, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* IE hacks */
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 316, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button + .button,
+.button + .button-group,
+.button-group + .button,
+.button-group + .button-group {
+  margin-left: 15px;
+}
+
+/* line 320, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group li {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 326, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group .button {
+  float: left;
+  margin-left: -1px;
+}
+
+/* line 332, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group > .button:not(:first-child):not(:last-child),
+.button-group li:not(:first-child):not(:last-child) .button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 339, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group > .button:first-child,
+.button-group li:first-child .button {
+  margin-left: 0;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 350, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group > .button:last-child,
+.button-group li:last-child > .button {
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* ............................................................................................................. Minor */
+/* line 361, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group.minor-group .button {
+  border: 1px solid #d4d4d4;
+  text-shadow: none;
+  background-image: none;
+  background-color: #fff;
+}
+
+/* line 369, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group.minor-group .button:hover,
+.button-group.minor-group .button:focus {
+  background-color: #599bdc;
+  -webkit-box-shadow: 5px 5px 15px #ccc;
+  -moz-box-shadow: 5px 5px 15px #ccc;
+  box-shadow: 5px 5px 15px #ccc;
+}
+
+/* line 377, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group.minor-group .button:active,
+.button-group.minor-group .button.active {
+  background-color: #3072b3;
+}
+
+/* line 381, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-group.minor-group .button.icon:before {
+  opacity: 0.8;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- BUTTON CONTAINER */
+/* For mixing buttons and button groups, e.g., in a navigation bar */
+/* line 389, /home/ubuntu/nslate_app/nslate/app/assets/stylesheets/gh-buttons.css.scss */
+.button-container .button,
+.button-container .button-group {
+  vertical-align: top;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+
+
+ */
+
+#close_flash{
+    visibility: hidden;
+}
+.flash_text{
+    bottom: 65px;
+    font-style: italic;
+    color: #ff0000;
+}
+.login_btn{
+   height: 50px;
+
+}
+/*input[type="text"],input[type="password"],input[type="text"]:focus,input[type="password"]:focus{*/
+input{
+  outline: none;
+  border:none !important;
+  box-shadow:none !important;
+  background-color: #FFFFFF;
+  border: none;
+  height: 35px;
+  margin-bottom: auto;
+  padding-left: 10px;
+  }
+
+.container.center-align{
+    margin: 5% auto;
+    font-family:sans-serif;
+    width: 30%;
+}
+
+.container{
+    width: 850px;
+    margin: 5% auto;
+    font-family:sans-serif;
+}
+
+.container>p>b{
+    color: #7BBFE8;
+}
+
+hr{
+    border-color: #7BBFE8;
+    background-color: #7BBFE8;
+}
+
+.text_field{
+    width: auto;
+    background-color: white;
+    
+}
+
+.btn{
+   float: left;
+   margin-top: 10px;
+   border-radius: 4px;
+   display: inline-block;
+   background-color: #7BBFE8;
+   border: 2px outset #7BBFE8;
+    font-family: sans-serif;
+    color: white;
+}
+
+.login_div{
+    float: left;
+    line-height: 30px;
+    width: 100px;
+}
+.icon_img{
+    float: left;
+    padding: 0 10px;;
+}
+
+.pull-right{
+    float: right;
+    font-family: sans-serif;
+    display: inline-block;
+    padding:  25px 0;
+    color: #7BBFE8;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.input_div{
+    float: left;
+}
+
+.panel{
+    padding-bottom: 0px;
+}
+
+.panel-heading{
+    border-radius: 4px;
+    background-color: #7BBFE8;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    padding: 0em 0em 0em 1em;
+}
+
+.div-block{
+    height: 35px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    border: 1px solid #7BBFE8;
+    border-radius: 4px;
+}
+
+.text-center{
+    color: #7BBFE8;
+    display: inline-block;
+    text-align: center;
+}
+
+.flash{
+    display: inline-block;
+    border: 1px solid #7BBFE8;
+    color: #7BBFE8;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.inputs_new{
+    width: 700px;
+    float: right;
+}
+
+.field_div{
+    display: block;
+    padding: 10px;
+}
+
+.label_div{
+    height: 35px;
+    line-height: 35px;
+    width: 20%;
+}
+
+.input_new{
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid  #7BBFE8;
+    width: 75%;
+    float: right;
+}
+
+.submit_div{
+    float: right;
+    clear: right;
+}
+
+.form-group{
+    float: right;
+}
+.label{
+    width: 180px;
+    float: left;
+    padding-top: 8px;
+}
+.text_field2{
+    width: 300px;
+    float: left;
+    border: 1px solid #000 !important;
+    border-radius: 2px !important;
+    margin-top: 5px;
+}
+.free_space_right{
+    width: 400px;
+    float: left;
+}
+.row{margin-right:0px;margin-left:0px;z-index: 100;}
+
+.col1,.col2,.col3,.col4{min-height:1px;padding-right:15px;padding-left:15px;}
+
+@media (min-width:992px){.col1,.col2{float:left}.col2{width:75%}.col1{width:25%}.col3{width: 100%}.col4{width: 40%}}
+
+.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:13px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;}
+.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}
+.form-control:-ms-input-placeholder{color:#999}.form-control::-webkit-input-placeholder{color:#999}
+.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control{background-color:#eee;opacity:1}
+
+.form-control{height:40px;padding:10px 10px 10px 10px;font-size:13px;line-height:1.3333333;border-radius:6px}
+
+.form-group{margin-bottom:15px}
+.label{border:1px solid #000}
+
+input{line-height:normal}
+select[multiple],select[size]{height:auto}
+.btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}
+.btn-info{color:#fff;background-color:#39b18d;border-color:#39b18d}
+.btn-info:active,.btn-info:focus,.btn-info:hover,
+.btn-info{color:#fff;background-color:#39b18d;border-color:#39b18d}
+
+
+.table{border-spacing:0;border-collapse:collapse; border-collapse:collapse!important;background-color:transparent;}
+.table td,.table th{background-color:#fff!important}
+.table-bordered td,.table-bordered th{border:1px solid #ddd!important}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+th{text-align:left}
+td,th{padding:0; font-size: 14px;}
+thead{display:table-header-group;}
+.table{width:100%;max-width:100%;}
+.table>tbody>tr>td,.table>tbody>tr>th,.table>thead>tr>td,.table>thead>tr>th{padding:8px;line-height:1.42857143;vertical-align:top;border-top:1px solid #ddd}
+.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd;}
+.table-hover>tbody>tr:hover{background-color:#f5f5f5}	
+#search_by_id,#search_by_name{display: none;}
+.pagination-btn{
+	float: left;color: #333;font-size:14px;line-height:24px;font-weight: normal;text-align: center;border: 1px solid #AAA;margin:2px;min-width: 14px;padding:  0 7px;box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+.element_name{display: none;}
+.element_class{display: none;}
+.element_subject{display: none;}
+.element_concept{display: none;}
+.element_update{display: none;}
+.showhide{display: none;}
+#img{display: none; margin-left: 40%; margin-top: 50px;}
+ul{list-style: none;}
+
+.panel{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-default{
+    border-color: #ddd;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #86E2D5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+#mainform{
+width:960px;
+margin:20px auto;
+padding-top:20px;
+display:block;
+border-radius: 5px;
+}
+
+#onclick{
+padding:3px;
+color:green;
+cursor:pointer;
+padding:5px 5px 5px 15px;
+width:70px;
+color:white;
+background-color:#123456;
+box-shadow:1px 1px 5px grey;
+border-radius:3px;
+}
+
+.form1{
+border-radius:1px;
+padding:20px 30px;
+box-shadow:0 0 15px;
+font-size:14px;
+font-weight:bold;
+width:350px;
+margin:20px 250px 0 35px;
+float:left;
+}
+
+input[type=file]{
+width:100%;
+height:35px;
+margin-top:5px;
+border:1px solid #999;
+border-radius:3px;
+padding:5px;
+}
+
+.contactdiv{
+position: fixed;
+top: 50px;
+left: 0px;
+height: 100%;
+width: 100%;
+}
+
+#login,#contact{
+width:350px;
+margin:0px;
+background-color:white;
+font-family: 'Fauna One', serif;
+position: relative;
+border: 2px solid #86E2D5;
+}
+.img{
+float: right;
+margin-top: -45px;
+margin-right: -55px;
+}
+#contact{
+left: 50%;
+top: 50%;
+margin-left:-210px;
+margin-top:-255px;
+}
+#login{
+left: 50%;
+top: 50%;
+margin-left:-210px;
+margin-top:-158px;
+}
+.asset{
+    border: 1px solid #f9f9f9;
+    padding: 5px;
+}
+
+.progress_outer {
+        width: 100%;
+        border: 1px solid #f7f7f7;
+        border-radius: 5px;
+    }
+.progress {
+        width: 0%;
+        overflow: hidden;
+        height: 18px;
+        background-color: #1a82f7;
+    }
+    
+#nodata{
+    display: none;
+}
+
+#required_name,#required_id{
+    display: none;
+}
+
+///////////////////////////////////////////////////////////////////////
+
+ul.simple-pagination {
+	list-style: none;
+}
+
+.simple-pagination {
+	display: block;
+	overflow: hidden;
+	padding: 0 5px 5px 0;
+	margin: 0;
+}
+
+.simple-pagination ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.simple-pagination li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+span.ellipse.clickable {
+	cursor: pointer;
+}
+
+.ellipse input {
+	width: 3em;
+}
+
+/*------------------------------------*\
+	Compact Theme Styles
+\*------------------------------------*/
+
+.compact-theme a, .compact-theme span {
+	float: left;
+	color: #333;
+	font-size:14px;
+	line-height:24px;
+	font-weight: normal;
+	text-align: center;
+	border: 1px solid #AAA;
+	border-left: none;
+	min-width: 14px;
+	padding: 0 7px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	background: #efefef; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#efefef 100%); /* W3C */
+}
+
+.compact-theme a:hover {
+	text-decoration: none;
+	background: #efefef; /* Old browsers */
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#bbbbbb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #efefef 0%,#bbbbbb 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #efefef 0%,#bbbbbb 100%); /* IE10+ */
+	background: linear-gradient(top, #efefef 0%,#bbbbbb 100%); /* W3C */
+}
+
+.compact-theme li:first-child a, .compact-theme li:first-child span {
+	border-left: 1px solid #AAA;
+	border-radius: 3px 0 0 3px;
+}
+
+.compact-theme li:last-child a, .compact-theme li:last-child span {
+	border-radius: 0 3px 3px 0;
+}
+
+.compact-theme .current {
+	background: #bbbbbb; /* Old browsers */
+	background: -moz-linear-gradient(top, #bbbbbb 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbbbbb), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bbbbbb 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bbbbbb 0%,#efefef 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #bbbbbb 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(top, #bbbbbb 0%,#efefef 100%); /* W3C */
+	cursor: default;
+}
+
+.compact-theme .ellipse {
+	background: #EAEAEA;
+	padding: 0 10px;
+	cursor: default;
+}
+
+/*------------------------------------*\
+	Light Theme Styles
+\*------------------------------------*/
+
+.light-theme a, .light-theme span {
+	float: left;
+	color: #666;
+	font-size:14px;
+	line-height:24px;
+	font-weight: normal;
+	text-align: center;
+	min-width: 14px;
+	padding: 0 7px;
+	margin: 0 5px 0 0;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	background: #efefef; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#efefef 100%); /* W3C */
+}
+
+.light-theme a:hover {
+	text-decoration: none;
+	background: #FCFCFC;
+}
+
+.light-theme .current {
+	background: #666;
+	color: #FFF;
+	border-color: #444;
+	box-shadow: 0 1px 0 rgba(255,255,255,1), 0 0 2px rgba(0, 0, 0, 0.3) inset;
+	cursor: default;
+}
+
+.light-theme .ellipse {
+	background: none;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	font-weight: bold;
+	cursor: default;
+}
+
+/*------------------------------------*\
+	Dark Theme Styles
+\*------------------------------------*/
+
+.dark-theme a, .dark-theme span {
+	float: left;
+	color: #CCC;
+	font-size:14px;
+	line-height:24px;
+	font-weight: normal;
+	text-align: center;
+	border: 1px solid #222;
+	min-width: 14px;
+	padding: 0 7px;
+	margin: 0 5px 0 0;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	background: #555; /* Old browsers */
+	background: -moz-linear-gradient(top, #555 0%, #333 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555), color-stop(100%,#333)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #555 0%,#333 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #555 0%,#333 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #555 0%,#333 100%); /* IE10+ */
+	background: linear-gradient(top, #555 0%,#333 100%); /* W3C */
+}
+
+.dark-theme a:hover {
+	text-decoration: none;
+	background: #444;
+}
+
+.dark-theme .current {
+	background: #222;
+	color: #FFF;
+	border-color: #000;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+	cursor: default;
+}
+
+.dark-theme .ellipse {
+	background: none;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	font-weight: bold;
+	cursor: default;
+}
+td{
+	text-overflow: ellipsis;
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+}

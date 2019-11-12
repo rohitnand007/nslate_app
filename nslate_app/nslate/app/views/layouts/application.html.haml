@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Nslate
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+    = csrf_meta_tags
+  %body
+    #container
+      #header_bg
+        #header
+          #head_contentLeft
+            .logo_icons
+              = link_to (image_tag "nslate_logo.png"),root_path
+            #nav_icons
+              = render 'shared/top_menu_new'
+          #head_contentRight
+            .profile_block
+              = image_tag "user.png"
+              %label
+                = current_user.id
+                -#= current_user.name.truncate(23)
+              %button.profile_view
+            .profile_content
+              -#%label.profile_edit
+              -#  = link_to "My Profile" #, profile_path(current_user.profile)
+              -#%label.profile_edit
+              -#  = link_to "Change Password" #,change_password_path
+              %label.profile_edit.logout
+                = link_to  "Logout" , destroy_user_session_path, :method => :delete
+            -##head_user_info
+            -#  = "Head_user_info"
+            -#  -#= display_details
+        .yield_gap
+        = yield
+
+:javascript
+      //$(".profile_view").click(function(){
+      //$(".profile_content").css("display","block")
+      //})
+      //$(".logout").click(function(){
+      //$("#header_bg").hide();
+      //})
+       //set the active header
+      $(active_header_block).css("background-color", "#E5F4FB");
+      $(active_header_block).children(".nav_menuarrow").css("visibility", "visible");
+
+      $(".nav_icon_block").click(function(){
+        var clicked_header_block = '#' +$(this).attr('id');
+        localStorage.setItem('active_header_block', clicked_header_block);
+        //alert('clicked: ' + clicked_header_block);
+      });
+      $(".top-menu-bar").bind('mouseleave',function(){
+              $(".show").hide();
+              $(this).toggle();
+      });
+      $(".nav_icon_block").hover(function () {
+     		$(this).css("background-color", "#E5F4FB");
+        $(this).children(".nav_menuarrow").css("visibility", "visible");
+        $(this).find(".dropmenu").show();
+        //If this is not active header remove background for active header
+        if(('#' +$(this).attr('id') )!= active_header_block){
+          $(active_header_block).css("background-color", "#ffffff");
+          $(active_header_block).children(".nav_menuarrow").css("visibility", "hidden");
+        }
+      },
+      function () {
+            if(('#' +$(this).attr('id') )!= active_header_block){
+              $(this).css("background-color", "white");
+              $(this).children(".nav_menuarrow").css("visibility", "hidden");
+              //If this is not active header set background for active header
+              $(active_header_block).css("background-color", "#E5F4FB");
+              $(active_header_block).children(".nav_menuarrow").css("visibility", "visible");
+            }
+            $(this).css("border-bottom", "0");
+            $(this).find(".dropmenu").hide();
+      }
+      );
+      $(".profile_block").bind('click',function() {
+              $(".profile_content").toggle()
+            });
+      $(".profile_content").bind('mouseleave',function() {
+                    $(".profile_content").css("display", "none")
+                  });
+      attachSearchEvents();
+      $(".search_input").val("").focus();
+      $(".logout").click(function(){
+        localStorage.setItem('active_header_block', null);
+      });

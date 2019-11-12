@@ -1,0 +1,44 @@
+= stylesheet_link_tag 'login_page'
+= javascript_include_tag 'application.js'
+.container.center-align
+  .text-left
+    = image_tag "nslate_logo.png",:alt =>  "Nslate"
+  = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+    .panel
+      .panel-heading
+        Sign in
+      .div-block
+        .icon_img
+          = image_tag "user_id.png"
+        .input_div.edutorid_box{style:"overflow:hidden;width:200px"}
+          = f.text_field :login, :class => "text_field",:placeholder=>"Login",:size => nil
+      .div-block
+        .icon_img
+          = image_tag "lock.png"
+        .input_div{style:"overflow:hidden;width:200px"}
+          = f.password_field :password, :class => "text_field",:placeholder=>"Password",:size => nil
+    .panel_div.login_btn
+      %button.btn{:type => "submit"}
+        .icon_img
+          = image_tag "key.png"
+        .login_div
+          Login
+    .flash_text
+      = render 'shared/flash_messages'
+
+-#  .field
+-#    = f.label :login
+-#    %br/
+-#    = f.text_field :login, autofocus: true
+-#  .field
+-#    = f.label :password
+-#    %br/
+-#    = f.password_field :password, autocomplete: "off"
+-#  - if devise_mapping.rememberable?
+-#    .field
+-#      = f.check_box :remember_me
+-#      = f.label :remember_me
+-#  .actions
+-#    = f.submit "Log in"
+-#= render "users/shared/links"
+  -#%h2 Log in

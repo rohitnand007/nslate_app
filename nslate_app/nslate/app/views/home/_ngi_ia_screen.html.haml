@@ -1,0 +1,38 @@
+= stylesheet_link_tag "ngi_page"
+= javascript_include_tag 'ngi_quiz'
+.row
+  %h3
+    = current_user.edutorid
+  -if @final_quiz_data_page1.present?
+    %table#myTable.table.table-hover.tablesorter
+      %thead
+        %tr
+          %th Scheduled Test
+          %th Published
+          %th Downloaded
+          %th Submitted
+          %th Not Submitted
+          %th Options
+          %th
+      -@final_quiz_data_page1.each do |quiz_data|
+        %tr
+          %td= link_to "#{quiz_data.first[0]}","#",class:"button"
+          %td= quiz_data.first[1][0]["published"].flatten.sum
+          %td= quiz_data.first[1][1]["downloaded"].flatten.sum
+          %td= quiz_data.first[1][2]["submitted"].flatten.sum
+          %td= quiz_data.first[1][3]["not_submitted"].flatten.sum
+          %td= link_to "Download", download_institute_wise_data_full_path(:date=>quiz_data.first[0]), class:"button"
+          %td= link_to "google","http://localhost:3000/api/ta/base/get_users_ids",class:"button"
+  -else
+    "No Quiz Data uploaded for this Institution"
+
+
+
+:javascript
+  $(document).ready(function()
+    {
+        $("#myTable").tablesorter( {sortList: [[0,0], [1,0]]} );
+    }
+  );
+
+

@@ -1,0 +1,2 @@
+class InstituteAdmin < User
+end
